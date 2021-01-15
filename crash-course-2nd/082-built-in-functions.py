@@ -16,3 +16,21 @@ math.sin(180)
 import random
 x = random.random()
 random.randint(0,100)
+random.choice([1,2,3,5,9,10])
+
+
+str = "Simple string"
+for char in str:
+    print(char)
+
+dir(str) # lists all available methods in the string prototype
+
+
+camels = 42
+print("I have spotted %d camels." % camels)
+print("I have spotted %d camels in %s." % (camels, "Sahara desert"))
+
+# % modulo operator
+# ** exponential operator
+# / float division
+# // integer division
