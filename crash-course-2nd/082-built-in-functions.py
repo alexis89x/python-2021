@@ -34,3 +34,17 @@ print("I have spotted %d camels in %s." % (camels, "Sahara desert"))
 # ** exponential operator
 # / float division
 # // integer division
+
+
+a = 13
+b = 13
+a == b # True
+a is b # True
+
+c = [1,2,3]
+d = [1,2,3]
+c == d # True
+c is d # False
+
+clone = c
+c is clone # True
